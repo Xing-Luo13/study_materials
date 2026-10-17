@@ -1,0 +1,6 @@
+.venv/
+site/
+__pycache__/
+*.pyc
+_edgeprofile/
+shot_*.png

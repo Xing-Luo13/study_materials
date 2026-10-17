@@ -1,0 +1,111 @@
+site_name: 西交计算机 · 考试资料库
+site_url: https://xing-luo13.github.io/study_materials/
+site_description: 西安交通大学计算机科学与技术（国家拔尖计划）课程考试资料整理
+site_author: Xing-Luo13
+repo_url: https://github.com/Xing-Luo13/study_materials
+repo_name: Xing-Luo13/study_materials
+edit_uri: ""
+copyright: 资料仅供学习交流，版权归原作者所有
+
+theme:
+  name: material
+  language: zh
+  font: false
+  icon:
+    logo: material/bookshelf
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.code.copy
+    - content.tooltips
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 首页: index.md
+  - 大一上:
+    - 大一上/index.md
+    - 国防教育（军理）: 大一上/国防教育（军理）/index.md
+    - 工科数学分析-1（高数上）: 大一上/工科数学分析-1（高数上）/index.md
+    - 思想道德与法治（思修）: 大一上/思想道德与法治（思修）/index.md
+    - 线性代数与解析几何I（线代）: 大一上/线性代数与解析几何I（线代）/index.md
+    - 计算机程序设计: 大一上/计算机程序设计/index.md
+  - 大一下:
+    - 大一下/index.md
+    - 中国近现代史纲要（史纲）: 大一下/中国近现代史纲要（史纲）/index.md
+    - 大学物理II-1（大物上）: 大一下/大学物理II-1（大物上）/index.md
+    - 工科数学分析-2（高数下）: 大一下/工科数学分析-2（高数下）/index.md
+    - 数据结构与算法A: 大一下/数据结构与算法A/index.md
+    - 离散数学A: 大一下/离散数学A/index.md
+    - 计算概论（参考·大学计算机基础）: 大一下/计算概论（参考·大学计算机基础）/index.md
+  - 大二上:
+    - 大二上/index.md
+    - 大学物理II-2（大物下）: 大二上/大学物理II-2（大物下）/index.md
+    - 数学物理方程: 大二上/数学物理方程/index.md
+    - 概率统计与随机过程（概率论）: 大二上/概率统计与随机过程（概率论）/index.md
+    - 毛泽东思想和中国特色社会主义理论体系概论（毛概）: 大二上/毛泽东思想和中国特色社会主义理论体系概论（毛概）/index.md
+    - 电路: 大二上/电路/index.md
+  - 大二下:
+    - 大二下/index.md
+    - 习近平新时代中国特色社会主义思想概论（习思想）: 大二下/习近平新时代中国特色社会主义思想概论（习思想）/index.md
+    - 电子技术基础（模电·数电）: 大二下/电子技术基础（模电·数电）/index.md
+    - 马克思主义基本原理（马原）: 大二下/马克思主义基本原理（马原）/index.md
+  - 大三上:
+    - 大三上/index.md
+  - 大三下:
+    - 大三下/index.md
+  - 大四上:
+    - 大四上/index.md
+  - 大四下:
+    - 大四下/index.md
+    - 形势与政策: 大四下/形势与政策/index.md
+  - 专业选修课:
+    - 专业选修课（培养方案未指定学期）/index.md
+    - 面向对象程序设计（C++）: 专业选修课（培养方案未指定学期）/面向对象程序设计（C++）/index.md
+  - 资料清单: 资料清单.md
+  - 整理说明: 整理说明.md

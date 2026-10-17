@@ -1,0 +1,182 @@
+
+/* ---------- 字体：优先系统中文字体，避免依赖 Google Fonts ---------- */
+:root {
+  --md-text-font: "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+  --md-code-font: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+}
+
+.md-grid {
+  max-width: 76rem;
+}
+
+/* ---------- 首页 Hero ---------- */
+.hero {
+  padding: 2.6rem 2rem;
+  margin: 0.5rem 0 1.6rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #3949ab 0%, #5e35b1 55%, #7b1fa2 100%);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(57, 73, 171, 0.25);
+}
+
+.hero h1 {
+  color: #fff !important;
+  font-weight: 700;
+  margin: 0.2rem 0 0.6rem;
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.hero-kicker {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 99px;
+  padding: 0.15rem 0.7rem;
+}
+
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  margin-top: 1.4rem;
+  font-size: 0.85rem;
+}
+
+.hero-stats b {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+[data-md-color-scheme="slate"] .hero {
+  background: linear-gradient(135deg, #283593 0%, #4527a0 55%, #6a1b9a 100%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+/* ---------- 统计胶囊 ---------- */
+.stat-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.4rem 0 1.2rem;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.16rem 0.7rem;
+  border-radius: 99px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.6;
+  border: 1px solid transparent;
+}
+
+.chip-midterm {
+  color: #1565c0;
+  background: rgba(21, 101, 192, 0.12);
+  border-color: rgba(21, 101, 192, 0.25);
+}
+
+.chip-final {
+  color: #c62828;
+  background: rgba(198, 40, 40, 0.12);
+  border-color: rgba(198, 40, 40, 0.25);
+}
+
+.chip-other {
+  color: #5d4037;
+  background: rgba(93, 64, 55, 0.1);
+  border-color: rgba(93, 64, 55, 0.22);
+}
+
+.chip-total {
+  color: var(--md-default-fg-color);
+  background: var(--md-default-fg-color--lightest);
+  border-color: var(--md-default-fg-color--lighter);
+}
+
+[data-md-color-scheme="slate"] .chip-midterm { color: #90caf9; background: rgba(144, 202, 249, 0.12); }
+[data-md-color-scheme="slate"] .chip-final { color: #ef9a9a; background: rgba(239, 154, 154, 0.12); }
+[data-md-color-scheme="slate"] .chip-other { color: #bcaaa4; background: rgba(188, 170, 164, 0.12); }
+
+/* ---------- 文件链接 ---------- */
+.file-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  text-decoration: none !important;
+  font-weight: 500;
+}
+
+.file-link:hover {
+  text-decoration: underline !important;
+}
+
+.ext {
+  display: inline-block;
+  min-width: 2.5rem;
+  padding: 0.05rem 0.3rem;
+  border-radius: 0.25rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #78909c;
+  flex: none;
+}
+
+.ext-pdf { background: #d32f2f; }
+.ext-zip, .ext-rar { background: #f57c00; }
+.ext-doc, .ext-docx { background: #2b579a; }
+
+/* ---------- 表格 ---------- */
+.md-typeset table:not([class]) th {
+  background: var(--md-default-fg-color--lightest);
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background: var(--md-default-fg-color--lightest);
+}
+
+/* ---------- 卡片 ---------- */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 0.55rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .grid.cards .lg {
+  color: var(--md-primary-fg-color);
+}
+
+/* ---------- 其它 ---------- */
+.back-link {
+  margin: -0.4rem 0 0.8rem;
+}
+
+.back-link a {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.sem-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+  margin-top: -0.6rem;
+}

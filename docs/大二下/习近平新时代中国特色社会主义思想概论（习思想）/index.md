@@ -1,0 +1,14 @@
+# 习近平新时代中国特色社会主义思想概论（习思想）
+
+<p class="back-link"><a href="../">← 返回 大二下</a></p>
+
+<div class="stat-chips"><span class="chip chip-final">期末 1</span><span class="chip chip-total">共 1 份 · 1.0 MB</span></div>
+
+## 期末
+
+| 文件 | 格式 | 大小 | 备注 |
+|---|---|---:|---|
+| <a class="file-link preview" href="files/%E6%9C%9F%E6%9C%AB/%E3%80%90%E9%92%B1%E5%AD%A6%E7%BB%84%E3%80%91%E3%80%8A%E4%B9%A0%E6%80%9D%E6%83%B3%E3%80%8B%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2%EF%BC%88%E7%AC%AC%E5%85%AD%E7%89%88%EF%BC%89.docx.pdf" target="_blank" rel="noopener"><span class="ext ext-pdf">PDF</span>【钱学组】《习思想》复习提纲（第六版）.docx.pdf</a> | PDF | 1.0 MB | 保留最新第六版；第三版、第四版未收录 |
+
+!!! info "使用提示"
+    资料来自网络收集与学长学姐分享，仅供个人学习交流，请勿用于商业用途。若侵犯了您的权益，请联系删除。
