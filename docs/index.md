@@ -7,7 +7,7 @@
 历届试题、答案与复习资料，按 **学期 → 课程 → 考试类型** 归档，支持站内搜索。
 
 <div class="hero-stats">
-  <span><b>91</b> 份资料</span>
+  <span><b>92</b> 份资料</span>
   <span><b>21</b> 门课程</span>
   <span><b>0.39 GB</b></span>
 </div>
@@ -22,7 +22,7 @@
 
     ---
 
-    5 门课程 · 25 份资料
+    5 门课程 · 26 份资料
 
     [:octicons-arrow-right-24: 进入](%E5%A4%A7%E4%B8%80%E4%B8%8A/index.md)
 
@@ -100,7 +100,7 @@
 
     ---
 
-    按课程与类别列出全部 91 份文件，可下载 CSV。
+    按课程与类别列出全部 92 份文件，可下载 CSV。
 
     [:octicons-arrow-right-24: 查看清单](资料清单.md)
 

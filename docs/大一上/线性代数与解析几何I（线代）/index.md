@@ -2,7 +2,7 @@
 
 <p class="back-link"><a href="../">← 返回 大一上</a></p>
 
-<div class="stat-chips"><span class="chip chip-midterm">期中 6</span><span class="chip chip-final">期末 6</span><span class="chip chip-other">其他资料 1</span><span class="chip chip-total">共 13 份 · 31.2 MB</span></div>
+<div class="stat-chips"><span class="chip chip-midterm">期中 6</span><span class="chip chip-final">期末 6</span><span class="chip chip-other">其他资料 2</span><span class="chip chip-total">共 14 份 · 33.1 MB</span></div>
 
 ## 期中
 
@@ -31,6 +31,7 @@
 | 文件 | 格式 | 大小 | 备注 |
 |---|---|---:|---|
 | <a class="file-link preview" href="files/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E5%85%AD%E7%89%88%E7%AD%94%E6%A1%88%28%E5%85%A8%29.pdf" target="_blank" rel="noopener"><span class="ext ext-pdf">PDF</span>同济大学线性代数第六版答案(全).pdf</a> | PDF | 8.6 MB | 教材习题答案，配合课本使用 |
+| <a class="file-link preview" href="files/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E4%B8%8E%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95I%E8%AF%A6%E8%A7%A3%EF%BC%88%E6%B9%9B%E8%93%9D%E7%9A%84%E6%B9%9B%EF%BC%89.pdf" target="_blank" rel="noopener"><span class="ext ext-pdf">PDF</span>线性代数与解析几何I详解（湛蓝的湛）.pdf</a> | PDF | 1.9 MB | 作者湛蓝的湛；第一至三章笔记（行列式、矩阵、几何向量），24页 |
 
 !!! info "使用提示"
     资料来自网络收集与学长学姐分享，仅供个人学习交流，请勿用于商业用途。若侵犯了您的权益，请联系删除。
